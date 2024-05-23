@@ -1,0 +1,64 @@
+.landingpg{
+    height: 100vh;
+    width: 100vw;
+    background :linear-gradient(rgb(231, 247, 240),rgb(231, 247, 240),white);
+}
+.blank{
+    height: 13vh;
+}
+.p1container{
+    height: 87vh;
+    width: 100%;
+    /* background-color: rgb(10, 69, 49); */   
+    display: flex;
+}
+.left{
+    height: 100%;
+    width: 60%;
+    /* background-color: aquamarine; */
+    display: flex;
+    align-items: center;
+    justify-content: end;
+}
+.textcontainer{
+    height: 50%;
+    width: 75%;
+    /* background-color: brown; */
+}
+.textcontainer h4{
+    font-size: 1.5vw;
+    font-weight: 500;
+    color: rgb(16, 45, 33);
+}
+.textcontainer h1{
+    font-size: 6.1vw;
+    color: rgb(4, 34, 21);
+    letter-spacing: 0.1vw;
+    margin-top: 0.1vw;
+}
+.textcontainer h2{
+    font-size:2.3vw ;
+    font-weight: 520;
+    color: rgb(7, 39, 26);
+    margin-top: 0.3;
+}
+.textcontainer .aboutbtn{
+    width: 7vw;
+    height: 2.5vw;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border:2px solid rgb(3, 34, 21);;
+    font-size: 1.2vw;
+    font-weight: 700;
+    margin-top: 4vw;
+    /* color:rgb(212, 248, 232);
+    background-color: rgb(65, 84, 76);; */
+    color: rgb(1, 30, 18);;
+}
+.right{
+    height: 100%;
+    width: 40%;
+    /* background-color: red; */
+}

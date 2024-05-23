@@ -1,0 +1,42 @@
+.servicepage{
+    height: 100vh;
+    width: 100vw;
+    background-color:  rgb(231, 247, 240);
+}
+.cardcontainer{
+    height: 80vh;
+    width: 100vw;    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5vw;
+}
+.card{
+    height: 55vh;
+    width: 22vw;
+    border-radius: 50px;
+    background-color: white;
+    box-shadow: 15px 20px 10px rgb(4, 34, 21);
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    padding: 2vw 0;
+}
+.card img{
+    height: 5vw;
+    width: 4.5vw;
+    border-radius: 50%;
+    margin-bottom: 2vw;
+}
+.card h2{
+    font-size: 1.8vw;
+    color: rgb(25, 61, 46);
+    margin: 0;
+}
+.card .text{
+    text-align: center;
+   height: 20vh;
+   font-size: 1vw;
+   color: rgb(54, 85, 72);
+}
