@@ -1,9 +1,10 @@
 import React from "react";
 import './service.css'
 
-function Service(){
+function  Service(){
     return(
         <>
+        <div className="blank"></div>
         <div className="servicepage">
             <div className="tittle">
                 <h2>What Services I'm Providing</h2>

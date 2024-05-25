@@ -1,5 +1,4 @@
 import React from 'react'
-import image from '../assets/lp.jpg'
 import './landingpage.css'
 
 

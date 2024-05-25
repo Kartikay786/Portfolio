@@ -1,11 +1,12 @@
 import React from "react";
 import './about.css'
-import image from '../assets/about.jpg'
+import image from '../images/about.jpg'
 
 function About(){
     return(
         <>
         <div className="aboutpage">
+            <div className="blank"></div>
             <div className="tittle">
                 <h2>About Me</h2>                
             </div>
