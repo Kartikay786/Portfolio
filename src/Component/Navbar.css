@@ -11,7 +11,7 @@ nav{
 }
 .centerelem{
     display: flex;
-    width: 20vw;
+    width: 25vw;
     /* background-color: aqua; */
     justify-content: space-between;
 }
@@ -19,7 +19,8 @@ nav{
     font-size:1.4vw ;
     font-weight: 500;
 }
-.centerelem a{
+
+.centerelem a, Link{
     font-size: 1.3vw;
     text-decoration: none;
     color: rgb(54, 90, 75);
