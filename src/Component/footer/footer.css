@@ -1,0 +1,56 @@
+footer{
+    height:10vh;
+    width: 100%;
+    background-color:  rgb(0, 31, 17);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.sociallink{
+    height: 15vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 2.5vw;
+
+}
+.sociallink img{
+    height: 4vw;
+    width: 4vw;
+    margin-bottom: 3vw;
+   
+}
+.sociallink img:last-child{
+    height: 3vw;
+    width: 3vw;
+}
+footer h2{
+    font-size: 1.5rem;
+    line-height: 10vh;
+    font-weight: 500;
+    color: rgb(157, 212, 187);
+}
+.staytouch{
+    height: 55vh;
+    width: 100%;
+    background-color:rgb(248, 255, 252) ;
+}
+.emailbox{
+    height: 20vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 2vw;
+   
+}
+.emailbox input{
+    width: 25vw;
+    border: 1px solid rgb(132, 207, 176) ;
+}
+.emailbox #submit{
+    width: 7vw;
+    background-color:rgb(5, 30, 19) ;
+    color: rgb(226, 244, 236) ;
+}

@@ -1,46 +1,29 @@
 import React from "react";
-import Navbar from "./Component/Navbar";
-import { createBrowserRouter ,RouterProvider } from "react-router-dom"
+import Navbar from "./Component/navbar/Navbar";
+import { BrowserRouter as Router , Routes,Route } from "react-router-dom"
 import Home from "./home";
 
-import About from "./Component/about";
-import Project from './Component/project'
-import Contact from "./Component/contact";
-import Servicepage from "./Component/servicepage";
-import Footer from "./Component/footer";
+import About from "./Component/about/about";
+import Project from './Component/project/project'
+import Contact from "./Component/contact/contact";
+import Servicepage from "./Component/service/servicepage";
+import Footer from "./Component/footer/footer";
 
-
-const router = createBrowserRouter([
-    {
-        path:"/",
-        element:<Home/>
-    },
-    {
-        path:"/about",
-        element:<About/>
-    },
-    {
-        path:"/project",
-        element:<Project/>
-    },
-    {
-        path:"/service",
-        element:<Servicepage/>
-    },
-    {
-        path:"/contact",
-        element:<Contact/>
-    }
-])
 
 function Layout(){
 
     return(
-    <>
+    <Router>
         <Navbar/>
-        <RouterProvider router={router}/>
+        <Routes>
+            <Route path="/" element={<Home/>}/>
+            <Route path="about" element={<About/>}/>
+            <Route path="/service" element={<Servicepage/>}/>
+            <Route path="/project" element={<Project/>}/>
+            <Route path="/contact" element={<Contact/>}/>
+        </Routes>
         <Footer/>
-    </>
+    </Router>
     )
 }
 
