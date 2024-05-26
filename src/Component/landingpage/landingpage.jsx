@@ -18,7 +18,7 @@ function Landingpage(){
                         </div>
                     </div>
                     <div className="right">
-
+                        <img src="https://portfolio-sarthak.vercel.app/assets/imgs/man1.png" alt="" />
                     </div>
                 </div>
             </div>

@@ -16,14 +16,14 @@ function Project(){
           <div className="projectcard">           
            <img src={p1image} alt="" />
             <div className="projecttext">
-                <h2>Netflix Clone</h2>
+                <h2>Clone of Cynthia</h2>
             </div>
            
-        </div>
+        </div>  
         <div className="projectcard">           
            <img src={p2image} alt="" />
             <div className="projecttext">
-                <h2>Netflix Clone</h2>
+                <h2>Portfolio</h2>
             </div>
            
         </div>

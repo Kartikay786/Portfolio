@@ -1,5 +1,5 @@
 .servicepage{
-    height: 100vh;
+    height: 120vh;
     width: 100vw;
     background:linear-gradient(rgb(231, 247, 240),rgb(231, 247, 240),white)
 }
@@ -39,4 +39,21 @@
    height: 20vh;
    font-size: 1vw;
    color: rgb(54, 85, 72);
+}
+.skillpage{
+    height: 100vh;
+    width: 100vw;
+    background-color: black;
+}
+.language{
+    height: 20vh;
+    /* background-color: aquamarine; */
+    display: flex;
+    justify-content: center;
+    gap: 2vw;
+    align-items: center ;
+}
+.language img{
+    height: 5vw;
+    width: 5vw;
 }

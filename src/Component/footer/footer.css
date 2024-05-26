@@ -16,14 +16,14 @@ footer{
 
 }
 .sociallink img{
-    height: 4vw;
-    width: 4vw;
+    height: 3vw;
+    width: 3vw;
     margin-bottom: 3vw;
    
 }
 .sociallink img:last-child{
-    height: 3vw;
-    width: 3vw;
+    height: 4vw;
+    width: 4vw;
 }
 footer h2{
     font-size: 1.5rem;

@@ -40,13 +40,20 @@
     object-fit: cover;
     margin-left: 5vw;
 }
-.text{
+.aboutright{
     height: 100%;
-    width: 65%;
+    /* background-color: yellow; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.text{
+    height: 60%;
+    width:100%;
     display: flex;
     justify-content: center;
     align-items: center;
-    /* background-color: yellow; */
+    /* background-color: rgb(135, 135, 54); */
 }
 .textbox{
     width: 68%;
