@@ -8,6 +8,7 @@ import Project from './Component/project/project'
 import Contact from "./Component/contact/contact";
 import Servicepage from "./Component/service/servicepage";
 import Footer from "./Component/footer/footer";
+import Aboutpage from "./Component/about/aboutpage";
 
 
 function Layout(){
@@ -17,7 +18,7 @@ function Layout(){
         <Navbar/>
         <Routes>
             <Route path="/" element={<Home/>}/>
-            <Route path="about" element={<About/>}/>
+            <Route path="about" element={<Aboutpage/>}/>
             <Route path="/service" element={<Servicepage/>}/>
             <Route path="/project" element={<Project/>}/>
             <Route path="/contact" element={<Contact/>}/>

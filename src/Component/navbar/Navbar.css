@@ -5,7 +5,7 @@ nav{
     justify-content: space-between;
     align-items: center;
     position: fixed;
-    background-color: rgb(132, 191, 166);
+    background-color: rgb(2, 28, 21);
     padding: 0 11vw 0 15vw;
     /* border: 2px solid  rgb(54, 90, 75);; */
 }
@@ -14,16 +14,19 @@ nav{
     width: 25vw;
     /* background-color: aqua; */
     justify-content: space-between;
+    
 }
 .leftelm h2{
     font-size:1.4vw ;
     font-weight: 500;
+    color:  rgb(144, 185, 168);
 }
 
 .centerelem a, Link{
     font-size: 1.3vw;
     text-decoration: none;
-    color: rgb(54, 90, 75);
+    color: rgb(192, 230, 214);
+    
 }
 .rightelem{
     height: 3vw;
