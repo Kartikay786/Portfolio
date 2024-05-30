@@ -1,12 +1,13 @@
 import React from "react";
 import './about.css'
 import image from '../../images/about.jpg'
+import '../responsive.css'
 
 function About(){
     return(
         <>
         <div className="aboutpage">
-            <div className="blank"></div>
+            {/* <div className="blank"></div> */}
             <div className="tittle">
                 <h2>About Me</h2>                
             </div>

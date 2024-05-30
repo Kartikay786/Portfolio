@@ -1,5 +1,6 @@
 import React from 'react'
 import './landingpage.css'
+import '../responsive.css'
 
 
 function Landingpage(){

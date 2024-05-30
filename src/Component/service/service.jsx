@@ -1,5 +1,7 @@
 import React from "react";
 import './service.css'
+import '../responsive.css'
+
 
 function  Service(){
     return(

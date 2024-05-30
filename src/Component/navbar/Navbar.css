@@ -1,44 +1,51 @@
 nav{
     height: 13vh;
-    width: 100%;
+    width: 100vw;
     display: flex;
     justify-content: space-between;
     align-items: center;
     position: fixed;
     background-color: rgb(2, 28, 21);
     padding: 0 11vw 0 15vw;
+    z-index: 999;
     /* border: 2px solid  rgb(54, 90, 75);; */
 }
 .centerelem{
     display: flex;
-    width: 25vw;
+    min-width: 25vw;
+    gap: 2vw;
     /* background-color: aqua; */
     justify-content: space-between;
     
 }
+.hamburger{
+    visibility: hidden;
+    height: 0px;
+    width: 0px;
+}
 .leftelm h2{
-    font-size:1.4vw ;
+    font-size:1.6rem ;
     font-weight: 500;
-    color:  rgb(144, 185, 168);
+    color:  rgb(196, 231, 216);
 }
 
 .centerelem a, Link{
-    font-size: 1.3vw;
+    font-size: 1.2rem;
     text-decoration: none;
     color: rgb(192, 230, 214);
     
 }
 .rightelem{
-    height: 3vw;
-    width: 7vw;
-    background-color: rgb(33, 81, 61);
+    height: 38px;
+    width: 100px;
+    background-color: rgb(86, 115, 103);
     border-radius: 5px;
     display: flex;
     align-items: center;
     justify-content: center;
 }
 .rightelem h2{
-font-size: 1.4vw;
-font-weight: 500;
-color:rgb(234, 247, 241);
+font-size: 1.2rem;
+font-weight: 700;
+color:rgb(228, 247, 238);
 }

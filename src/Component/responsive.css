@@ -1,0 +1,270 @@
+@media (min-width:1200px){
+    .card{
+        height: 43vh;
+       
+    }
+    nav{
+        padding: 0 5vw 0 8vw;
+    }
+    .landingpg{
+        height: 80vh;
+    }
+    
+}
+
+@media (max-width:992px){
+    .centerelem{
+        gap:1.5vw;
+    }
+    nav{
+        padding: 0 5vw;
+    }
+   
+}
+
+@media (max-width:744px){
+
+
+    .landingpg .right img{
+        height: 45vh;
+    }
+    .landingpg .textcontainer h2{
+        font-size: 2rem;
+    }
+   .landingpg .p1container {
+   padding: 5vw;
+   }
+   .aboutpage .container{
+     flex-direction: column;
+     align-items: center;
+     gap: 5vw;
+     height: 80vh;
+   }
+   .aboutpage .textbox{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+   }
+   .aboutpage .textbox p{
+    text-align: center;
+    font-size: 1rem;
+   }
+   .servicepage .tittle{
+    text-align: center;
+  }
+  .servicepage .cardcontainer{
+    flex-direction: column;
+    height: 130vh;
+}
+    .projectcontainer{
+        flex-direction: column;
+        height: 150vh;
+    }
+
+    .toppage{
+        height: 60vh;
+    }
+    .basesection .toppage img{
+        height: 300px;
+        width: 280px;
+    }
+}
+
+@media (max-width:822px){
+    nav{
+        padding: 0 4vw;
+    }
+    nav .leftelm h2{
+        font-size: 1.4rem;
+    }
+    nav .centerelem{
+        gap:1.7vw
+    }
+    nav .centerelem  a{
+        font-size: 1.1rem;
+        font-weight: 300;
+    }
+
+    .left .textcontainer h4{
+        font-size: 1.2rem;
+    }
+    .left .textcontainer h1{
+        font-size: 5.5rem;
+    }
+    .left .textcontainer h2{
+        font-size: 1.9rem;
+    }
+    .right img{
+        margin-right: 2.5vw;
+    }
+
+    .aboutpage .container .img img{
+        height: 50vh;
+        width: 45vh;
+    }
+    .aboutpage .container .sociallink img{
+        height: 35px;
+        width: 35px;
+    }
+
+    .servicepage .card{
+        height: 50vh;
+        width: 300px;
+    }
+
+    .basesection .innerpage{
+        /* height: 70vh; */
+        overflow-x: scroll;
+    }
+}
+
+@media (max-width:576px){
+    nav .rightelem{
+        height: 0px;
+        width: 0px;
+    }
+    nav .rightelem h2{
+        font-size: 0px;
+    }
+
+
+    .landingpg .p1container{
+        flex-direction: column-reverse;
+        /* align-items: center; */
+    }
+    .landingpg .p1container{
+        height: 100vh;
+    }
+    .landingpg .left{
+        width: 100%;
+    }
+    .landingpg .right{
+        width: 100%;
+    }
+    .landingpg .right img{
+        height: 40vh;
+        margin-top: 10vw;
+    }
+
+    .aboutpage .container{
+        height: 105vh;
+    }
+    .aboutpage .container{
+        flex-direction: column;
+        align-items: center;
+    }
+    .aboutpage .img{
+        width: 80%;
+        
+    }
+    .aboutpage .img img{
+        height: 50vh;
+        width: 45vh;
+    }
+
+    .servicepage .tittle{
+      text-align: center;
+    }
+    .servicepage .cardcontainer{
+        flex-direction: column;
+        height: 130vh;
+    }
+    
+    .staytouch .emailbox input{
+        width: 250px;
+    }
+    .projectcontainer .projectcard{
+        width: 80%;
+        height: 90%;
+    }
+   
+
+
+}
+
+@media (max-width:430px){
+   nav{
+    height: 10vh;
+    padding: 0 10vw;
+    background-color: rgb(231, 247, 240);
+   }
+   nav .centerelem a{
+    font-size: 0px;
+   }
+   nav .leftelm h2{
+     color:rgb(1, 34, 20)
+   }
+   nav .rightelem {
+    width: 40px;
+    background: transparent;
+   }
+   nav .rightelem .hamburger{
+    visibility: visible;
+    height: 40px;
+    width: 40px;
+   }
+   nav .rightelem h2{
+    font-size: 0px;
+   }
+
+   .blank{
+    height: 10vh;
+   }
+   .landingpg{
+    height: 75vh;
+   }
+   .landingpg .right img{
+    height: 30vh;
+   }
+   .landingpg .p1container{
+    height: 68vh;
+   }
+   .p1container .textcontainer h4{
+        font-size: 1rem;
+        margin-bottom: 5px;
+   }
+   .p1container .textcontainer h1{
+    font-size: 4.4rem;
+    line-height: 75px;
+   }
+   .p1container .textcontainer h2{
+    font-size: 1.4rem;
+    margin-top: 15px;
+   }
+   .p1container .textcontainer .aboutbtn{
+    height: 0;
+    width: 0;
+    font-size: 0;
+    visibility: hidden;
+   }    
+
+   .aboutpage .img{
+    height: 65%;
+    width: 80%;
+    border-radius: 20px;
+    overflow: hidden;
+   }
+   .aboutpage .textbox p{
+    text-align: start;
+    margin-bottom: 25px;
+   }
+   .aboutpage .textbox button{
+    height: 4.5vh;
+    width: 120px;
+    font-size: 1rem;
+   }
+
+   .servicepage .card{
+    height: 50vh;
+    width: 280px;
+   }
+   .servicepage .language{
+    flex-wrap: wrap;
+    height: 25vh;
+   }
+
+   .staytouch .emailbox{
+    flex-direction: column;
+   }
+  
+}

@@ -3,6 +3,7 @@ import './project.css'
 import p1image from '../../images/cynthia.png'
 import p2image from '../../images/Portfolio.png'
 import p3image from '../../images/netflix.png'
+import '../responsive.css'
 
 
 function Project(){

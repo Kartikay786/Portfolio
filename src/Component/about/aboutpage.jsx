@@ -1,5 +1,6 @@
 import React from 'react'
 import abimage from '../../images/about.jpg'
+import '../responsive.css'
 
 const Aboutpage = () => {
   return (

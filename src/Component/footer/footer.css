@@ -16,14 +16,14 @@ footer{
 
 }
 .sociallink img{
-    height: 3vw;
-    width: 3vw;
+    height: 45px;
+    width: 45px;
     margin-bottom: 3vw;
    
 }
 .sociallink img:last-child{
-    height: 4vw;
-    width: 4vw;
+    height: 55px;
+    width: 55px;
 }
 footer h2{
     font-size: 1.5rem;
@@ -46,11 +46,14 @@ footer h2{
    
 }
 .emailbox input{
-    width: 25vw;
+    width: 400px;
+    font-size: 1.1rem;
     border: 1px solid rgb(132, 207, 176) ;
+    color:green;
 }
 .emailbox #submit{
-    width: 7vw;
+    width: 115px;
+    font-size: 1.1rem;
     background-color:rgb(5, 30, 19) ;
     color: rgb(226, 244, 236) ;
 }

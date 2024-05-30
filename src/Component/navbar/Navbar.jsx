@@ -1,9 +1,13 @@
-import React, { useEffect, useRef } from "react";
+import React, { useEffect, useRef,useState } from "react";
 import './Navbar.css'
 import { Link } from "react-router-dom";
 import { gsap } from "gsap/gsap-core";
+import '../responsive.css'
+import Hamburger from 'hamburger-react'
 
 function Navbar(){
+
+    const [isOpen, setOpen] = useState(false)
     const navref = useRef(null);
 
     useEffect(()=>{
@@ -37,6 +41,8 @@ function Navbar(){
                 
 
                 <div className="rightelem">
+                
+                    <div className="hamburger"><Hamburger toggled={isOpen} toggle={setOpen} /></div>
                     <h2>Hire Me</h2>
                 </div>
             </nav>
