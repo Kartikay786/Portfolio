@@ -5,10 +5,6 @@
     nav{
         padding: 0 5vw 0 8vw;
     }
-    /* .landingpg{
-        height: 80vh;
-    }
-     */
 }
 @media (max-width:1040px){
     .projectcontainer{
@@ -22,12 +18,7 @@
     nav{
         padding: 0 5vw;
     }
-    /* .contactcontainer .textbox{
-        flex-direction: column;
-        height: 820px;
-        
-    } */
-   
+    
 }
 @media (max-width:822px){
     nav{
