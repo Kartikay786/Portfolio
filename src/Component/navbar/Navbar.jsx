@@ -45,7 +45,11 @@ function Navbar(){
                     <div className="hamburger"><Hamburger toggled={isOpen} toggle={setOpen} /></div>
                     <h2>Hire Me</h2>
                 </div>
+                
             </nav>
+            <div className="hamburgerpg">
+
+            </div>
         </>
       )
 }

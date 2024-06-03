@@ -1,6 +1,8 @@
+
+
 nav{
     height: 13vh;
-    width: 100vw;
+    width: 100%;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -48,4 +50,9 @@ nav{
 font-size: 1.2rem;
 font-weight: 700;
 color:rgb(228, 247, 238);
+}
+
+.hamburgerpg{
+    height: 20vh;
+    background-color: black;
 }

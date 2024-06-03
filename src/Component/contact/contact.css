@@ -1,7 +1,7 @@
 .contactpage{
     height: 150vh;
     width: 100vw;
-    background:rgb(1, 29, 22)
+    background:rgb(240, 254, 250);
     /* background-color: rgb(231, 247, 240); */
 }
 .contactpage .tittle h2{
@@ -88,9 +88,9 @@ textarea{
     height: 50vw;
     width: 50vw;
     border-radius: 50%;
-    background-color: rgb(240, 254, 250);
+    background-color: rgb(237, 247, 244);
     transform: translate(80%,5%);
-    box-shadow: 0px 0px 50px rgb(197, 228, 197);
+    box-shadow: 0px 0px 50px rgb(115, 135, 115);
 }
 .contactcontainer .textbox{
     height: 28vw;

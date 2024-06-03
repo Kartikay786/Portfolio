@@ -5,20 +5,18 @@
 }
 .projectcontainer{
     min-height: 70vh;
-    min-width: 100vw;
     background-color:rgb(231, 247, 240);  
     display: flex;
     align-items: center;
-    justify-content: center;
+    overflow: hidden;
     gap:2vw;
 }
 
 .projectcard{
     min-height: 45vh;
-    min-width: 30vw;
+    min-width: 32vw;
     border-radius: 20px;
-    /* background-color: white; */
-    overflow: hidden;    
+    /* background-color: white; */    
 }
 .projectcard img{
     height: 33vh;

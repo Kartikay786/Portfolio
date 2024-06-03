@@ -1,6 +1,8 @@
+
+
 .servicepage{
     min-height: 120vh;
-    width: 100vw;
+    width: 100%;
     background:linear-gradient(rgb(231, 247, 240),rgb(231, 247, 240),white)
 }
 .cardcontainer{
