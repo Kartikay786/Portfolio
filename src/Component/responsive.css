@@ -1,17 +1,20 @@
-@media (min-width:1200px){
+@media (max-width:1200px){
     .card{
-        height: 43vh;
-       
+        height: 43vh;   
     }
     nav{
         padding: 0 5vw 0 8vw;
     }
-    .landingpg{
+    /* .landingpg{
         height: 80vh;
     }
-    
+     */
 }
-
+@media (max-width:1040px){
+    .projectcontainer{
+       flex-direction: column;
+    }
+}
 @media (max-width:992px){
     .centerelem{
         gap:1.5vw;
@@ -19,9 +22,60 @@
     nav{
         padding: 0 5vw;
     }
+    /* .contactcontainer .textbox{
+        flex-direction: column;
+        height: 820px;
+        
+    } */
    
 }
+@media (max-width:822px){
+    nav{
+        padding: 0 4vw;
+    }
+    nav .leftelm h2{
+        font-size: 1.4rem;
+    }
+    nav .centerelem{
+        gap:1.7vw
+    }
+    nav .centerelem  a{
+        font-size: 1.1rem;
+        font-weight: 300;
+    }
 
+    .left .textcontainer h4{
+        font-size: 1.2rem;
+    }
+    .left .textcontainer h1{
+        font-size: 5.5rem;
+    }
+    .left .textcontainer h2{
+        font-size: 1.9rem;
+    }
+    .right img{
+        margin-right: 2.5vw;
+    }
+
+    .aboutpage .container .img img{
+        height: 40vh;
+        width: 35vh;
+    }
+    .aboutpage .container .sociallink img{
+        height: 35px;
+        width: 35px;
+    }
+
+    .servicepage .card{
+        height: 50vh;
+        width: 300px;
+    }
+
+    .basesection .innerpage{
+        /* height: 70vh; */
+        overflow-x: scroll;
+    }
+}
 @media (max-width:744px){
 
 
@@ -58,7 +112,7 @@
 }
     .projectcontainer{
         flex-direction: column;
-        height: 150vh;
+        /* height: 150vh; */
     }
 
     .toppage{
@@ -67,54 +121,6 @@
     .basesection .toppage img{
         height: 300px;
         width: 280px;
-    }
-}
-
-@media (max-width:822px){
-    nav{
-        padding: 0 4vw;
-    }
-    nav .leftelm h2{
-        font-size: 1.4rem;
-    }
-    nav .centerelem{
-        gap:1.7vw
-    }
-    nav .centerelem  a{
-        font-size: 1.1rem;
-        font-weight: 300;
-    }
-
-    .left .textcontainer h4{
-        font-size: 1.2rem;
-    }
-    .left .textcontainer h1{
-        font-size: 5.5rem;
-    }
-    .left .textcontainer h2{
-        font-size: 1.9rem;
-    }
-    .right img{
-        margin-right: 2.5vw;
-    }
-
-    .aboutpage .container .img img{
-        height: 50vh;
-        width: 45vh;
-    }
-    .aboutpage .container .sociallink img{
-        height: 35px;
-        width: 35px;
-    }
-
-    .servicepage .card{
-        height: 50vh;
-        width: 300px;
-    }
-
-    .basesection .innerpage{
-        /* height: 70vh; */
-        overflow-x: scroll;
     }
 }
 
@@ -186,6 +192,8 @@
    nav{
     height: 10vh;
     padding: 0 10vw;
+    position: relative;
+    /* visibility: hidden; */
     background-color: rgb(231, 247, 240);
    }
    nav .centerelem a{

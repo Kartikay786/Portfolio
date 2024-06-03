@@ -11,8 +11,6 @@ function Contact(){
                 <h2>Contact Me</h2>
             </div>
             <div className="contactcontainer">
-               
-                <div className="circle"></div>
                 <div className="textbox">
                      <div className="mydets">
                     <div className="text">

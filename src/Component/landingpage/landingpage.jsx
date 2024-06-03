@@ -6,9 +6,8 @@ import '../responsive.css'
 function Landingpage(){
     return(
         <>
-            <div className="blank"></div>
             <div className='landingpg'>
-            
+                
                 <div className="p1container">
                     <div className="left">
                         <div className="textcontainer">                           
@@ -19,7 +18,7 @@ function Landingpage(){
                         </div>
                     </div>
                     <div className="right">
-                        <img src="https://portfolio-sarthak.vercel.app/assets/imgs/man1.png" alt="" />
+                        <img src="https://www.mindmade.in/wp-content/uploads/elementor/thumbs/digital-qlvkx7bp3td8y0h0gexpkzzo66peqjie17u30mmkjs.webp" alt="" />
                     </div>
                 </div>
             </div>
