@@ -7,7 +7,7 @@ function Landingpage(){
     return(
         <>
             <div className='landingpg'>
-                
+                <div className="blank"></div>
                 <div className="p1container">
                     <div className="left">
                         <div className="textcontainer">                           

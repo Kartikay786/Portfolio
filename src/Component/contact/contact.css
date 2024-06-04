@@ -4,10 +4,6 @@
     background:rgb(240, 254, 250);
     /* background-color: rgb(231, 247, 240); */
 }
-.blank{
-    height: 20vh;
-    background-color:rgb(240, 254, 250) ;
-}
 .contactcontainer{
     width: 100%;
     display: flex;

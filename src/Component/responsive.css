@@ -5,10 +5,18 @@
     nav{
         padding: 0 5vw 0 8vw;
     }
+    .aboutpage .container{
+        padding: 0 2vw;
+        justify-content: space-between;
+    }
 }
 @media (max-width:1040px){
     .projectcontainer{
        flex-direction: column;
+    }
+    .aboutpage .container{
+        padding: 0 2vw;
+        justify-content: space-between;
     }
 }
 @media (max-width:992px){
@@ -18,7 +26,29 @@
     nav{
         padding: 0 5vw;
     }
-    
+    .aboutpage .container{
+       padding: 0 2vw;
+       justify-content: space-between;
+    }
+    .aboutpage .aboutright{
+        width: 50% 
+    }
+    .aboutpage .img{
+        width: 50%;
+    }
+    .aboutpage img{
+        height: 400px;
+        width: 300px;
+    }
+    /* .aboutpage .img{
+        height: 65%;
+        width: 400px;
+        border-radius: 20px;
+        object-fit: cover;
+        object-position: center;
+        overflow: hidden;
+       }
+     */
 }
 @media (max-width:822px){
     nav{
@@ -83,7 +113,10 @@
      flex-direction: column;
      align-items: center;
      gap: 5vw;
-     height: 80vh;
+     height: 90vh;
+   }
+   .aboutpage .aboutright{
+    width: 100%;
    }
    .aboutpage .textbox{
         display: flex;
@@ -184,8 +217,11 @@
     height: 10vh;
     padding: 0 10vw;
     position: relative;
-    /* visibility: hidden; */
+    /* display: none; */
     background-color: rgb(231, 247, 240);
+   }
+   .menu{
+    /* display: initial; */
    }
    nav .centerelem a{
     font-size: 0px;
@@ -198,7 +234,7 @@
     background: transparent;
    }
    nav .rightelem .hamburger{
-    visibility: visible;
+    visibility: inherit;
     height: 40px;
     width: 40px;
    }
