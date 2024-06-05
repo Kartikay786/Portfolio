@@ -6,7 +6,7 @@
     background :linear-gradient(rgb(231, 247, 240),rgb(231, 247, 240),white);
 }
 .blank{
-    max-height: 20vh;
+    height: 12vh;
     background-color:rgb(231, 247, 240) ;
 }
 .p1container{

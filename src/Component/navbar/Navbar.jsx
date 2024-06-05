@@ -6,50 +6,49 @@ import Hamburger from 'hamburger-react'
 
 function Navbar(){
 
-    const [menuview,setMenuview] = useState(false);
-    const togglemenu =()=>{
-        setMenuview(!menuview);
+    // const [menuopen,setMenuopen] = useState(false);
+    // // const togglemenu =()=>{
+    // //     setMenuview(!menuview);
+    // // };
+
+    // const closemenu =()=>{
+    //     setMenuopen(false);
+    // }
+
+    const [isMenuOpen, setIsMenuOpen] = useState(false);
+
+    const toggleMenu = () => {
+        setIsMenuOpen(!isMenuOpen);
     };
 
-    const closemenu =()=>{
-        setMenuview(false);
-    }
+    const closeMenu = () => {
+        setIsMenuOpen(false);
+    };
 
     
     return (
         <>
-            <nav>
+            <nav >
                 <div className="leftelm">
                     <h2>Portfolio</h2>
                 </div>
-                <div className="centerelem " >
-                    <div className="navelem" ><Link to="/">Home</Link></div>
-                    <div className="navelem"><Link to="/About">About</Link></div>
-                    <div className="navelem"><Link to="/project">Project</Link></div>
-                    <div className="navelem"><Link to="./service">Services</Link></div>
-                    <div className="navelem"><Link to="./Contact">Contact</Link></div>                
-                </div> 
-
-                <div className="rightelem ">
-                    <div className={`hamburger ${menuview ? 'cross' : ""}`}>
-                       <div className="line"></div>
-                       <div className="line"></div>
-                       <div className="line"></div>
-                    </div>
+                <div className={`centerelem ${isMenuOpen ? 'active' : ''}`}>
+                    <div onClick={closeMenu} className="navelem" ><Link to="/">Home</Link></div>
+                    <div onClick={closeMenu}  className="navelem" ><Link to="/About">About</Link></div>
+                    <div onClick={closeMenu}  className="navelem" ><Link to="/project">Project</Link></div>
+                    <div onClick={closeMenu}  className="navelem"><Link to="./service">Services</Link></div>
+                    <div onClick={closeMenu}  className="navelem" ><Link to="./Contact">Contact</Link></div>
+                </div>
+                <div className="rightelem">
                     <h2>Hire Me</h2>
+                    <div className={`hamburger ${isMenuOpen ? 'cross' : ''}`} onClick={toggleMenu}>
+                        <div></div>
+                        <div></div>
+                        <div></div>
+                    </div>
                 </div>
-                
-            </nav>
-
-            <div className={`menu ${menuview ? 'active' : ""}`}>
-                <div className="centerelem">
-                    <div onClick={closemenu} className="navelem" ><Link to="/">Home</Link></div>
-                    <div onClick={closemenu}  className="navelem" ><Link to="/About">About</Link></div>
-                    <div onClick={closemenu}  className="navelem" ><Link to="/project">Project</Link></div>
-                    <div onClick={closemenu}  className="navelem"><Link to="./service">Services</Link></div>
-                    <div onClick={closemenu}  className="navelem" ><Link to="./Contact">Contact</Link></div>
-                </div>
-            </div>
+            
+        </nav>
         </>
       )
 }

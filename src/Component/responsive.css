@@ -149,13 +149,13 @@
 }
 
 @media (max-width:576px){
-    nav .rightelem{
+    /* nav .rightelem{
         height: 0px;
         width: 0px;
     }
     nav .rightelem h2{
         font-size: 0px;
-    }
+    } */
 
 
     .landingpg .p1container{
@@ -213,15 +213,15 @@
 }
 
 @media (max-width:430px){
-   nav{
+   /* nav{
     height: 10vh;
     padding: 0 10vw;
     position: relative;
-    /* display: none; */
+    display: none;
     background-color: rgb(231, 247, 240);
    }
    .menu{
-    /* display: initial; */
+    display: initial;
    }
    nav .centerelem a{
     font-size: 0px;
@@ -240,7 +240,7 @@
    }
    nav .rightelem h2{
     font-size: 0px;
-   }
+   } */
 
    .blank{
     height: 10vh;
