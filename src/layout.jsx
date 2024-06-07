@@ -6,9 +6,9 @@ import Home from "./home";
 import About from "./Component/about/about";
 import Project from './Component/project/project'
 import Contact from "./Component/contact/contact";
-import Servicepage from "./Component/service/servicepage";
 import Footer from "./Component/footer/footer";
 import Aboutpage from "./Component/about/aboutpage";
+import Skills from "./Component/service/Skills";
 
 
 function Layout(){
@@ -20,7 +20,7 @@ function Layout(){
         <Routes>
             <Route path="/" element={<Home/>}/>
             <Route path="about" element={<Aboutpage/>}/>
-            <Route path="/service" element={<Servicepage/>}/>
+            <Route path="/service" element={<Skills/>}/>
             <Route path="/project" element={<Project/>}/>
             <Route path="/contact" element={<Contact/>}/>
         </Routes>
