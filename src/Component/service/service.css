@@ -59,3 +59,21 @@
     height: 60px;
     width: 60px
 }
+
+@media(max-width:930px){
+    .skillpage .servicebox{
+        height: 120vh;
+    }
+}
+@media (max-width:630px){
+    .skillpage .servicebox .boxcontainer{
+        flex-direction: column;
+        top:-15vh
+    }
+    .skillpage .servicebox .skillcircle{
+        transform: translateY(40%);
+    }
+    .skillpage .skillsection .langbox{
+        width: 95%;
+    }
+}

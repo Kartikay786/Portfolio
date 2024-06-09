@@ -46,7 +46,7 @@ function Aboutpage(){
      <div className="aboutPage" ref={aboutpage}  style={{minHeight:'100vh',width:'100%',backgroundColor:'rgb(231, 247, 240)'}}>                
                 <div className="blank"></div>
                 <div className="title" style={{height:'15vh',position:'relative',display:'flex',justifyContent:'center',alignItems:'center'}}><h2 style={{fontSize:'4rem',color:'rgb(42, 111, 82)',textAlign:'center'}}>Who am I</h2> </div>
-                <div className="aboutcontainer" style={{minHeight:'80vh',width:'100%',display:"flex",position:'relative',alignItems:'center' }}>
+                <div className="aboutcontainer" style={{minHeight:'70vh',width:'100%',display:"flex",position:'relative',alignItems:'center' }}>
                     <div className="right" style={ {minWidth:'40%',}}>
                         <div className="imgbox" style={{ display:"flex",justifyContent:'center',alignItems:"center",padding:'2vw'}}>
                           <img className="aboutimg" src={image1} alt=""  style={{maxHeight:'50vh',position:'absolute',zIndex:'9',width:'380px',backgroundColor:'red',objectFit:"cover",objectPosition:'center',borderRadius:'25px'}} />
@@ -58,7 +58,7 @@ function Aboutpage(){
                         </div> 
                     </div>         
 
-                    <div className="aboutleft" style={{minHeight:'80vh', minWidth:'60%',padding:'2vw 5vw 5vw 5vw',position:'relative',left:'0%'}}>
+                    <div className="aboutleft" style={{minHeight:'70vh', minWidth:'60%',padding:'2vw 5vw 0vw 5vw',position:'relative',left:'0%'}}>
                         <ul>
                             <li  style={{marginTop:'1vw' , fontSize:'1.2rem',  color:'rgb(42, 111, 82)'}}>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione veritatis modi fugit velit dicta ducimus recusandae soluta, quos quis! Temporibus, odit? Nostrum asperiores nihil reiciendis eaque perspiciatis temporibus voluptatum quam?</li>
                             <li className=".li1" style={{marginTop:'2vw' , fontSize:'1.2rem' , color:'rgb(42, 111, 82)'}}>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione veritatis  ducimus recusandae soluta, quos quis! Temporibus, odit? Nostrum asperiores nihil reiciendis eaque perspiciatis temporibus voluptatum quam?</li>
