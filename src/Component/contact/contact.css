@@ -2,65 +2,57 @@
     min-height: 100vh;
     width: 100vw;
     background:rgb(240, 254, 250);
-    /* background-color: rgb(231, 247, 240); */
+    background-size: cover;
+    background-position: center;
+    background-image: url('https://img.freepik.com/free-photo/top-view-blue-monday-concept-composition-with-telephone_23-2149139106.jpg?w=1060&t=st=1717925217~exp=1717925817~hmac=169487ec651acb089a487c0fdcb823b3e6f178a2679af2878985ad02dafb000d');
 }
 .contactcontainer{
+    max-height: 130vh;
     width: 100%;
     display: flex;
     align-items: center;
+    flex-direction: column;
     justify-content: center;
+    /* background-color: blueviolet; */
     padding: 0 12vw;
-    /* background-color: #fff; */
 }
 .contactcontainer .textbox{
-    height: 420px;
+    max-height: 390px;
     border-radius: 20px;
-    width: 950px;
-    /* background-color: rgb(38, 81, 38);   */
-    display: flex;
-    box-shadow: 0px 0px 20px rgb(1, 29, 22); ;
-}
-.mydets{
-    height: 100%;
-    width: 50%;
-    /* background-color: blue; */
+    max-width: 500px;
+    box-shadow: 0px 0px 20px rgb(1, 29, 22); 
     background-color: white;
     display: flex;
     flex-direction: column;
     justify-content: center;
-    border-top-left-radius: 20px;
-    border-bottom-left-radius: 20px;
     padding: 5vw;
+    position: relative;
 }
-.mydets .text{
+.textbox .text{
     height: 12vh;
     display: flex;
     flex-direction: column;
     align-items: flex-start;
 }
-.mydets h2{
+.textbox h2{
     font-size: 1.4rem;
     font-weight: 500;
     line-height: 1.5rem;    
     color: rgb(76, 110, 102);
 }
-.mydets .heading{
+.textbox .heading{
     font-weight: 650;
     color: rgb(3, 35, 22);   
 }
-.form{
-    height: 100%;
-    width: 50%;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    background-color: rgb(1, 29, 22);
-    border-top-right-radius: 20px;
-    border-bottom-right-radius: 20px;
-    padding: 4vw;
+#formbox{
+    position: relative;
+    left: 35%;
+    z-index: 2;
+    top: -10vh;
+    background-color: rgb(193, 225, 217);
 }
-.form h2{
-    color: rgb(205, 238, 229);
+#formbox h2{
+    color: rgb(46, 88, 77);
     font-weight: 400;
     font: 1.4rem;
 }
@@ -90,4 +82,54 @@ textarea{
     margin-top: 1.5vw;
     border: none;
     border-radius: 5px;
+}
+
+@media(max-width:1175px){
+    #formbox{
+        left:25%;
+        top: -8vh;
+    }
+}
+
+@media(max-width:890px){
+    #formbox{    
+        top: -5vh;
+    }
+     .textbox{
+        width: 430px;
+        height: 350px;
+     }
+}
+
+@media(max-width:780px){
+   .contactcontainer{
+    padding: 0 5vw;
+    align-items: start;
+   }
+   .textbox{
+    height: 330px;
+   }
+}
+@media(max-width:622px){
+    #formbox{
+        left:0%;
+        top: -3vh;
+    }
+    .contactcontainer{
+        align-items: center;
+    }
+    .textbox{
+        width: 400px;
+        height: 280px;
+     }
+    
+}
+@media(max-width:449px){
+    .textbox{
+        width: 280px;
+        height: 350px;
+     }
+    form input,textarea{
+        margin-top: 3.5vw;
+    }
 }
