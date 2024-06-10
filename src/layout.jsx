@@ -9,6 +9,7 @@ import Contact from "./Component/contact/contact";
 import Footer from "./Component/footer/footer";
 import Aboutpage from "./Component/about/aboutpage";
 import Skills from "./Component/service/Skills";
+import Adminpage from "./Admin/admin";
 
 
 function Layout(){
