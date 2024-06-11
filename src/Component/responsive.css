@@ -221,7 +221,7 @@
     height: 65%;
     width: 80%;
     border-radius: 20px;
-    overflow: hidden;
+    /* overflow: hidden; */
    }
    .aboutpage .textbox p{
     text-align: start;
