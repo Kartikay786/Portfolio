@@ -1,7 +1,6 @@
 import React from "react";
 import './about.css'
-import image from '../../images/about.jpg'
-import '../responsive.css'
+import image from '../../../images/about.jpg'
 
 function About(){
     return(

@@ -3,10 +3,10 @@ import { useRef } from "react";
 import gsap from "gsap";
 import { useGSAP } from "@gsap/react";
 import {ScrollTrigger} from "gsap/ScrollTrigger";
-import image1 from '../../images/aabout3.jpg'
-import image2 from '../../images/about.jpg'
-import image3 from '../../images/about2.jpg';
-import './about.css'
+import image1 from '../images/aabout3.jpg'
+import image2 from '../images/about.jpg'
+import image3 from '../images/about2.jpg';
+import './homeComponent/about/about.css'
 
 
 gsap.registerPlugin(useGSAP);

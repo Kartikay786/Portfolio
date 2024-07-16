@@ -1,5 +1,3 @@
-
-
 nav{
     min-height: 13vh;
     width: 100%;
@@ -111,3 +109,35 @@ color:rgb(228, 247, 238);
         position: relative;
     } 
   }
+
+
+/* reponsive css */
+
+@media (max-width:1200px){
+  nav{
+      padding: 0 5vw 0 8vw;
+  }
+}
+@media (max-width:992px){
+  .centerelem{
+      gap:1.5vw;
+  }
+  nav{
+      padding: 0 5vw;
+  }
+}
+@media (max-width:822px){
+  nav{
+      padding: 0 4vw;
+  }
+  nav .leftelm h2{
+      font-size: 1.4rem;
+  }
+  nav .centerelem{
+      gap:1.7vw
+  }
+  nav .centerelem  a{
+      font-size: 1.1rem;
+      font-weight: 300;
+  }
+}

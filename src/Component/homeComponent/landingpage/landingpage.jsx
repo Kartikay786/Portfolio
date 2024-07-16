@@ -1,7 +1,5 @@
-import React from 'react'
+import React, { useState } from 'react'
 import './landingpage.css'
-import '../responsive.css'
-
 
 function Landingpage(){
     return(

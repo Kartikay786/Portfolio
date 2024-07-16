@@ -57,3 +57,19 @@ footer h2{
     background-color:rgb(5, 30, 19) ;
     color: rgb(226, 244, 236) ;
 }
+
+/* responsive css */
+
+
+@media (max-width:576px){
+    
+    .staytouch .emailbox input{
+        width: 250px;
+    }
+}
+@media (max-width:430px){
+   .staytouch .emailbox{
+    flex-direction: column;
+   }
+  
+}
