@@ -1,10 +1,10 @@
-import React, { useEffect, useRef,useState } from "react";
-import './Navbar.css'
+import React, { useEffect, useRef, useState } from "react";
+import './Stylesheets/Navbar.css'
 import { Link } from "react-router-dom";
 
 
-function Navbar(){
- 
+function Navbar() {
+
     const [isMenuOpen, setIsMenuOpen] = useState(false);
 
     const toggleMenu = () => {
@@ -15,7 +15,7 @@ function Navbar(){
         setIsMenuOpen(false);
     };
 
-    
+
     return (
         <>
             <nav >
@@ -24,10 +24,10 @@ function Navbar(){
                 </div>
                 <div className={`centerelem ${isMenuOpen ? 'active' : ''}`}>
                     <div onClick={closeMenu} className="navelem" ><Link to="/">Home</Link></div>
-                    <div onClick={closeMenu}  className="navelem" ><Link to="/About">About</Link></div>
-                    <div onClick={closeMenu}  className="navelem" ><Link to="/project">Project</Link></div>
-                    <div onClick={closeMenu}  className="navelem"><Link to="/service">Skills</Link></div>
-                    <div onClick={closeMenu}  className="navelem" ><Link to="./Contact">Contact</Link></div>
+                    <div onClick={closeMenu} className="navelem" ><Link to="/About">About</Link></div>
+                    <div onClick={closeMenu} className="navelem" ><Link to="/project">Project</Link></div>
+                    <div onClick={closeMenu} className="navelem"><Link to="/service">Skills</Link></div>
+                    <div onClick={closeMenu} className="navelem" ><Link to="./Contact">Contact</Link></div>
                 </div>
                 <div className="rightelem">
                     <h2>Hire Me</h2>
@@ -37,10 +37,10 @@ function Navbar(){
                         <div></div>
                     </div>
                 </div>
-            
-        </nav>
+
+            </nav>
         </>
-      )
+    )
 }
 
 export default Navbar

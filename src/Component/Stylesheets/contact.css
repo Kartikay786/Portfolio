@@ -1,12 +1,13 @@
-.contactpage{
+.contactpage {
     min-height: 100vh;
     width: 100vw;
-    background:rgb(240, 254, 250);
+    background: rgb(240, 254, 250);
     background-size: cover;
     background-position: center;
     background-image: url('https://img.freepik.com/free-photo/top-view-blue-monday-concept-composition-with-telephone_23-2149139106.jpg?w=1060&t=st=1717925217~exp=1717925817~hmac=169487ec651acb089a487c0fdcb823b3e6f178a2679af2878985ad02dafb000d');
 }
-.contactcontainer{
+
+.contactcontainer {
     max-height: 130vh;
     width: 100%;
     display: flex;
@@ -16,11 +17,12 @@
     /* background-color: blueviolet; */
     padding: 0 12vw;
 }
-.contactcontainer .textbox{
+
+.contactcontainer .textbox {
     max-height: 390px;
     border-radius: 20px;
     max-width: 500px;
-    box-shadow: 0px 0px 20px rgb(1, 29, 22); 
+    box-shadow: 0px 0px 20px rgb(1, 29, 22);
     background-color: white;
     display: flex;
     flex-direction: column;
@@ -28,42 +30,49 @@
     padding: 4vw;
     position: relative;
 }
-.textbox .text{
+
+.textbox .text {
     height: 12vh;
     display: flex;
     flex-direction: column;
     align-items: flex-start;
 }
-.textbox h2{
+
+.textbox h2 {
     font-size: 1.4rem;
     font-weight: 500;
-    line-height: 1.5rem;    
+    line-height: 1.5rem;
     color: rgb(76, 110, 102);
 }
-.textbox .heading{
+
+.textbox .heading {
     font-weight: 650;
-    color: rgb(3, 35, 22);   
+    color: rgb(3, 35, 22);
 }
-#formbox{
+
+#formbox {
     position: relative;
     left: 35%;
     z-index: 2;
     top: -10vh;
     background-color: rgb(193, 225, 217);
 }
-#formbox h2{
+
+#formbox h2 {
     color: rgb(46, 88, 77);
     font-weight: 400;
     font: 1.4rem;
 }
-form{
+
+form {
     height: 30vh;
     width: 100%;
     display: flex;
     /* background-color: rgb(46, 108, 161); */
-    flex-direction: column; 
+    flex-direction: column;
 }
-input{
+
+input {
     height: 8vh;
     border-radius: 5px;
     border: none;
@@ -71,10 +80,11 @@ input{
     padding: 0px 1vw;
     font-size: 1.2rem;
     /* background: rgb(9, 40, 32); */
-   color: rgb(14, 82, 62);
+    color: rgb(14, 82, 62);
     border: 1.5px solid rgb(253, 255, 255);
 }
-textarea{
+
+textarea {
     height: 10vh;
     font-size: 1.2rem;
     padding: 1vw;
@@ -84,55 +94,64 @@ textarea{
     border-radius: 5px;
 }
 
-@media(max-width:1175px){
-    #formbox{
-        left:25%;
+@media(max-width:1175px) {
+    #formbox {
+        left: 25%;
         top: -8vh;
     }
 }
 
-@media(max-width:890px){
-    #formbox{    
+@media(max-width:890px) {
+    #formbox {
         top: -5vh;
     }
-     .textbox{
+
+    .textbox {
         width: 430px;
         height: 350px;
-     }
+    }
 }
 
-@media(max-width:780px){
-   .contactcontainer{
-    padding: 0 5vw;
-    align-items: start;
-   }
-   .textbox{
-    height: 330px;
-   }
-}
-@media(max-width:622px){
-    #formbox{
-        left:0%;
-        top:4vh;
+@media(max-width:780px) {
+    .contactcontainer {
+        padding: 0 5vw;
+        align-items: start;
     }
-    .contactcontainer{
+
+    .textbox {
+        height: 330px;
+    }
+}
+
+@media(max-width:622px) {
+    #formbox {
+        left: 0%;
+        top: 4vh;
+    }
+
+    .contactcontainer {
         align-items: center;
     }
-    .textbox{
+
+    .textbox {
         width: 400px;
         height: 280px;
-     }
-    
+    }
+
 }
-@media(max-width:449px){
-    .textbox{
+
+@media(max-width:449px) {
+    .textbox {
         width: 280px;
         height: 350px;
-     }
-    form input,textarea{
+    }
+
+    form input,
+    textarea {
         margin-top: 3.5vw;
     }
-    .contactpage{
+
+    .contactpage {
         height: 120vh;
     }
 }

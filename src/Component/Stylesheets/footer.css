@@ -1,12 +1,13 @@
-footer{
-    height:10vh;
+footer {
+    height: 10vh;
     width: 100%;
-    background-color:  rgb(0, 13, 10);
+    background-color: rgb(0, 13, 10);
     display: flex;
     flex-direction: column;
     align-items: center;
 }
-.sociallink{
+
+.sociallink {
     height: 15vh;
     width: 100%;
     display: flex;
@@ -15,61 +16,69 @@ footer{
     gap: 2.5vw;
 
 }
-.sociallink img{
+
+.sociallink img {
     height: 45px;
     width: 45px;
     margin-bottom: 3vw;
-   
+
 }
-.sociallink img:last-child{
+
+.sociallink img:last-child {
     height: 55px;
     width: 55px;
 }
-footer h2{
+
+footer h2 {
     font-size: 1.5rem;
     line-height: 10vh;
     font-weight: 500;
     color: rgb(157, 212, 187);
 }
-.staytouch{
+
+.staytouch {
     height: 55vh;
     width: 100%;
-    background-color:rgb(231, 247, 240) ;
+    background-color: rgb(231, 247, 240);
 }
-.emailbox{
+
+.emailbox {
     height: 20vh;
     width: 100%;
     display: flex;
     align-items: center;
     justify-content: center;
     gap: 2vw;
-   
+
 }
-.emailbox input{
+
+.emailbox input {
     width: 400px;
     font-size: 1.1rem;
-    border: 1px solid rgb(132, 207, 176) ;
-    color:green;
+    border: 1px solid rgb(132, 207, 176);
+    color: green;
 }
-.emailbox #submit{
+
+.emailbox #submit {
     width: 115px;
     font-size: 1.1rem;
-    background-color:rgb(5, 30, 19) ;
-    color: rgb(226, 244, 236) ;
+    background-color: rgb(5, 30, 19);
+    color: rgb(226, 244, 236);
 }
 
 /* responsive css */
 
 
-@media (max-width:576px){
-    
-    .staytouch .emailbox input{
+@media (max-width:576px) {
+
+    .staytouch .emailbox input {
         width: 250px;
     }
 }
-@media (max-width:430px){
-   .staytouch .emailbox{
-    flex-direction: column;
-   }
-  
+
+@media (max-width:430px) {
+    .staytouch .emailbox {
+        flex-direction: column;
+    }
+
 }

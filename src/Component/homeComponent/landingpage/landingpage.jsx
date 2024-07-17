@@ -1,17 +1,17 @@
 import React, { useState } from 'react'
 import './landingpage.css'
 
-function Landingpage(){
-    return(
+function Landingpage() {
+    return (
         <>
             <div className='landingpg'>
                 <div className="blank"></div>
                 <div className="p1container">
                     <div className="left">
-                        <div className="textcontainer">                           
+                        <div className="textcontainer">
                             <h4>Hello, I'm</h4>
                             <h1>Kartikay Gupta</h1>
-                            <h2>Aspiring Web Devloper</h2>                            
+                            <h2>Aspiring Web Devloper</h2>
                             <div className="aboutbtn">About Me</div>
                         </div>
                     </div>
